@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- Contains string values from FindHikePage.java -->
+    
+    <string name="Address">Enter your address</string>
+	<string name="Distance">Maximum distance from you</string>
+	 <string-array name="distance_array">
+        <item>Any</item>
+        <item>Up to 5 miles</item>
+        <item>Up to 10 miles</item>
+        <item>Up to 20 miles</item>
+        
+    </string-array>
+	<string name="Length">Length of hike</string>
+	 <string-array name="length_array">
+        <item>Any</item>
+        <item>Short (0-2 miles)</item>
+        <item>Medium (2-5 miles)</item>
+        <item>Long (5+ miles)</item>
+    </string-array>
+	<string name="Difficulty">Difficulty of hike</string>
+	 <string-array name="difficulty_array">
+        <item>Any</item>
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Difficult</item>
+    </string-array>
+    <string name="Shade">Amount of shade</string>
+     <string-array name="shade_array">
+        <item>Any</item>
+        <item>Sunny(less than 50% shade)</item>
+        <item>Shady(more than 50% shade)</item>
+    </string-array>
+    <string name="Transport">Transport device</string>
+     <string-array name="transport_array">
+        <item>Any</item> 
+        <item>Jogger</item>
+        <item>Small-wheeled stroller</item>
+        <item>Carrier</item>
+    </string-array>
+     <string name="Ok_button">Find my hike</string>
+    
+     
+     
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--WelcomePage -->
+    <string name="hello">Hello World, DemoActivity!</string>
+    <string name="app_name">Find a Hike</string>
+    <string name="Welcome_Text">Welcome to the Find a Hike App!</string>
+    <string name="Start_Text">Find a Hike Near Me</string>
+    <string name="Fav_Text">My Favorite Hikes</string>
+    
+	<!-- Results -->
+	<string name="results">Here are the hikes that match your criteria</string>
+	<string name="location">Location</string>
+	<string name="trail">Trail</string>
+	<string name="summary">Summary</string>
+	<string name="back">Go Back</string>
+    
+	
+</resources>

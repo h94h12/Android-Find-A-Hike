@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/addressText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Address" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPostalAddress" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/distanceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Distance" />
+
+    <Spinner
+        android:id="@+id/distancespinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:prompt="@string/Distance"/>
+    
+    <TextView
+        android:id="@+id/lengthTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Length" />
+
+    <Spinner
+        android:id="@+id/lengthspinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:prompt="@string/Length"/>
+    
+    <TextView
+        android:id="@+id/diffTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Difficulty" />
+
+    <Spinner
+        android:id="@+id/diffspinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:prompt="@string/Difficulty"/>
+    
+    <TextView
+        android:id="@+id/shadeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Shade" />
+
+    <Spinner
+        android:id="@+id/shadespinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:prompt="@string/Shade"/>
+    
+    <TextView
+        android:id="@+id/transTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Transport" />
+
+    <Spinner
+        android:id="@+id/transportspinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:prompt="@string/Transport"/>
+    
+    
+
+    <Button
+        android:id="@+id/Ok_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Ok_button" />
+
+</LinearLayout>
